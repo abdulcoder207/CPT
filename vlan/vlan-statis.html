@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="mt-0 flex justify-center border-spacing-2 bg-gray-800">
+        <h1 class="font-extralight text-teal-50">Script CPT</h1>
+    </div>
+
+    <div class="flex">
+        <div class="w-40 min-h-screen bg-gray-800 text-white p-4">
+            <h2 class="text-xl mb-6 font-extralight">Script CPT</h2>
+            <ul class="space-y-4">
+                <li><a href="/index.html"
+                        class="flex p-2 items-center rounded-lg hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700">Dashboard</a>
+                </li>
+                <li><a href="/profile.html"
+                        class="flex p-2 items-center rounded-lg hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700">Profile</a>
+                </li>
+                <li><a href="/404.html"
+                        class="flex p-2 items-center rounded-lg hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700">Settings</a>
+                </li>
+                <li><a href="/404.html"
+                        class="flex p-2 items-center rounded-lg hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700">Logout</a>
+                </li>
+            </ul>
+            <details
+                class="cursor-pointer mt-2 p-2 rounded-lg hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 ">
+                <summary>VLAN</summary>
+                <div>
+                    <ul class="space-y-4">
+                        <li><a href="./vlan-statis.html">VLAN Static</a></li>
+                    </ul>
+
+                </div>
+            </details>
+        </div>
+
+        <div class="flex-1 bg-gray-900 p-6 text-white">
+            <h1 class="text-2xl flex justify-center font-semibold mb-4">VLAN</h1>
+            <p class="mb-7">VLAN (Virtual Local Area Network) adalah teknologi jaringan yang membagi satu jaringan fisik
+                menjadi beberapa jaringan logis yang lebih kecil dan terpisah, memungkinkan isolasi lalu lintas data
+                untuk meningkatkan keamanan dan kinerja, serta memudahkan pengelolaan dan segmentasi jaringan tanpa
+                harus mengubah struktur fisik atau menambah kabel baru</p>
+
+            <!-- img -->
+            <h1 class="text-2xl flex justify-center font-semibold mb-4">TOPOLOGI</h1>
+            <img class="w-10/12 m-auto rounded-lg flex justify-center" src="../image/topologi-vlan-statis.png"
+                alt="topologi">
+            <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Topologi jaringan Vlan
+            </figcaption>
+            <br><br>
+            <!-- bahan -->
+            <div class="border-4 border-solid border-white ">
+                <h3 class="text-3xl flex justify-center ">Bahan Bahan</h3>
+                <p class="text-center">Router</p>
+                <p class="text-center">Switch</p>
+                <p class="text-center">PC 6</p>
+            </div>
+            <!-- script -->
+            <br><br>
+            <div class="max-w-xl mx-auto bg-white rounded-xl border border-gray-200 p-4">
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <h4 class="font-semibold text-gray-800 mb-2">Router</h4>
+                    <pre class="bg-gray-50 text-gray-800 text-sm rounded-lg p-3 overflow-auto">
+                    <code class="font-mono">
+                </code>
+                </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
